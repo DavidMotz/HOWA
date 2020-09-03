@@ -8,9 +8,6 @@
   font-family: sans-serif;
   color: #fff; }
 
-.border {
-  padding: 1rem; }
-
 .wrapper {
   /*Background image*/
   background-image: url(/img/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
@@ -44,6 +41,11 @@
   .nav-container-item {
     margin-top: 1.2rem; }
 
+.logo {
+  height: 70%;
+  width: 70%;
+  transform: translateX(50%); }
+
 .box-container {
   display: flex;
   justify-content: center;
@@ -52,3 +54,16 @@
 
 .choose-box {
   margin: 2rem; }
+  .choose-box-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    background-color: #84A9AC;
+    height: 4rem; }
+    .choose-box-header-heading {
+      font-size: 1.5rem; }
+  .choose-box-list {
+    height: 20rem;
+    list-style: none;
+    background-color: #E4E3E3; }

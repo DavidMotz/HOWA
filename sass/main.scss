@@ -7,6 +7,7 @@ $color-primary-light: #84A9AC;
 $color-primary-dark: #204051;
 $color-highlight-1: #9F283A;
 $color-highlight-2: #EE8433;
+$color-grey:#E4E3E3;
 
 
 /*MIXINS */
@@ -28,9 +29,6 @@ $color-highlight-2: #EE8433;
     color: $color-white;
 }
 
-.border{
-    padding: 1rem;
-}
 
 .wrapper{
     /*Background image*/
@@ -74,6 +72,13 @@ $color-highlight-2: #EE8433;
     }
 }
 
+.logo{
+    height: 70%;
+    width: 70%;
+
+    transform: translateX(50%);
+}
+
 .box-container{
     @include center;
     padding: 2rem;
@@ -81,4 +86,21 @@ $color-highlight-2: #EE8433;
 
 .choose-box{
     margin: 2rem;
+
+    &-header{
+        @include center;
+        width: 20rem;
+        background-color: $color-primary-light;
+        height: 4rem;
+
+        &-heading{
+            font-size: 1.5rem;
+        }
+    }
+
+    &-list{
+        height: 20rem;
+        list-style: none;
+        background-color: $color-grey;
+    }
 }
