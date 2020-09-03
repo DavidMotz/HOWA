@@ -1,0 +1,23 @@
+{
+  "name": "howa",
+  "version": "1.0.0",
+  "description": "HOWA Configurator",
+  "main": "main.js",
+  "dependencies": {
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMotz/HOWA.git"
+  },
+  "author": "David Motz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMotz/HOWA/issues"
+  },
+  "homepage": "https://github.com/DavidMotz/HOWA#readme"
+}
