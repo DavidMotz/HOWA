@@ -8,3 +8,30 @@ $color-primary-dark: #204051;
 $color-highlight-1: #9F283A;
 $color-highlight-2: #EE8433;
 
+
+/*MIXINS */
+
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Reset Site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    /*Background image*/
+    background-image: url(/img/steven-kamenar-MMJx78V7xS8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /*Set Height and stuff*/
+    height: 100vh;
+    width: 100%;
+}
