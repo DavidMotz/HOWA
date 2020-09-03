@@ -114,6 +114,25 @@ $color-grey:#E4E3E3;
             &-link{
                 color: $color-primary-dark;
                 text-decoration: none;
+
+                &-divider{
+                    padding: -2rem -3rem;
+                    color: inherit;
+                    &-system{
+                        font-size: .9rem;
+                        color: inherit;
+                    }
+                    &-desc{
+                        margin-top: .2rem;
+                        font-size: .7rem;
+                        color: inherit;
+                    }
+                }
+            }
+
+            &-link:hover{
+                color: $color-highlight-2;
+                transition: all .5s;
             }
         }
 
