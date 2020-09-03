@@ -4,7 +4,7 @@
   "description": "HOWA Configurator",
   "main": "main.js",
   "dependencies": {
-    "sass": "^1.26.10"
+    "node-sass": "^4.14.1"
   },
   "devDependencies": {},
   "scripts": {
