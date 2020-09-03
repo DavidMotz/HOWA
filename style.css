@@ -62,7 +62,9 @@
     background-color: #84A9AC;
     height: 4rem; }
     .choose-box-header-heading {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      letter-spacing: .5px;
+      text-transform: capitalize; }
   .choose-box-list {
     height: 20rem;
     list-style: none;
