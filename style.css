@@ -66,4 +66,16 @@
   .choose-box-list {
     height: 20rem;
     list-style: none;
-    background-color: #E4E3E3; }
+    background-color: #E4E3E3;
+    overflow: auto; }
+    .choose-box-list-item {
+      padding: 2rem 3rem;
+      color: #204051;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .choose-box-list-item-link {
+        color: #204051;
+        text-decoration: none; }
+    .choose-box-list-item:nth-of-type(odd) {
+      background-color: #d0dedf; }

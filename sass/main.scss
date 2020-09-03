@@ -102,5 +102,22 @@ $color-grey:#E4E3E3;
         height: 20rem;
         list-style: none;
         background-color: $color-grey;
+        overflow: auto;
+        
+        &-item{
+            padding: 2rem 3rem;
+            color: $color-primary-dark;
+            @include center;
+        
+            &-link{
+                color: $color-primary-dark;
+                text-decoration: none;
+            }
+        }
+
+        &-item:nth-of-type(odd){
+            background-color: lighten($color-primary-light, $amount: 25);
+        }
+
     }
 }
