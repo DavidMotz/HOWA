@@ -154,7 +154,7 @@ $color-grey:#E4E3E3;
         .pic-container{
             @include center;
     
-            &-calsys{
+            &-schsys{
                 @include center;
                 flex-direction: column;
                 width: 33rem;
@@ -162,18 +162,22 @@ $color-grey:#E4E3E3;
                 margin: 1rem;
                 height: 20rem;
 
-                &-caliber{
-                    height: 10rem;
-                    width: 100%;
-                    background-color: lawngreen;
-                    @include center;
+                &-pic{
+                    max-width: 100% !important;
+
                 }
 
+                &-schaft{
+                    height: 10rem;
+                    max-width: 100%;
+                    @include center;     
+                }
+                
                 &-system{
                     height: 10rem;
-                    width: 100%;
-                    background-color: lightblue;
+                    max-width: 100%;
                     @include center;
+                    border-bottom: 1px solid lighten($color: $color-black, $amount: 50);
                 }
             }
     
