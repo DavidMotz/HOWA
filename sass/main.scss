@@ -114,8 +114,10 @@ $color-grey:#E4E3E3;
             text-align: center;
         
             &-link{
-                color: $color-primary-dark;
+                color: inherit;
                 text-decoration: none;
+
+
 
                 &-divider{
                     padding: -2rem -3rem;
@@ -130,24 +132,22 @@ $color-grey:#E4E3E3;
                         color: inherit;
                         letter-spacing: .5px;
                     }
+
                 }
             }
 
-            &-link:hover{
-                color: inherit;
+            
+            &:nth-of-type(odd){
+                background-color: lighten($color-primary-light, $amount: 25);
             }
-
+            
+            &:hover{
+                background-color: $color-primary-dark;
+                transition: all .5s;
+                color: $color-white;
+            }
         }
         
-        &-item:nth-of-type(odd){
-            background-color: lighten($color-primary-light, $amount: 25);
-        }
-        
-        &-item:hover{
-            background-color: $color-highlight-2;
-            transition: all .3s;
-            color: $color-white;
-        }
     }
 
 }

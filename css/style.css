@@ -79,7 +79,7 @@
       align-items: center;
       text-align: center; }
       .choose-box-list-item-link {
-        color: #204051;
+        color: inherit;
         text-decoration: none; }
         .choose-box-list-item-link-divider {
           padding: -2rem -3rem;
@@ -92,14 +92,12 @@
             font-size: .7rem;
             color: inherit;
             letter-spacing: .5px; }
-      .choose-box-list-item-link:hover {
-        color: inherit; }
-    .choose-box-list-item:nth-of-type(odd) {
-      background-color: #d0dedf; }
-    .choose-box-list-item:hover {
-      background-color: #EE8433;
-      transition: all .3s;
-      color: #fff; }
+      .choose-box-list-item:nth-of-type(odd) {
+        background-color: #d0dedf; }
+      .choose-box-list-item:hover {
+        background-color: #204051;
+        transition: all .5s;
+        color: #fff; }
 
 .pic-container {
   display: flex;
