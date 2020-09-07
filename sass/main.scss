@@ -112,6 +112,7 @@ $color-grey:#E4E3E3;
             color: $color-primary-dark;
             @include center;
             text-align: center;
+            transition: all .7s;
         
             &-link{
                 color: inherit;
@@ -143,7 +144,7 @@ $color-grey:#E4E3E3;
             
             &:hover{
                 background-color: $color-primary-dark;
-                transition: all .5s;
+                transition: all .7s;
                 color: $color-white;
             }
         }
@@ -158,7 +159,7 @@ $color-grey:#E4E3E3;
                 @include center;
                 flex-direction: column;
                 width: 33rem;
-                background-color: $color-grey;
+                background-color: rgba($color: $color-grey, $alpha: .4);
                 margin: 1rem;
                 height: 20rem;
 
@@ -184,7 +185,7 @@ $color-grey:#E4E3E3;
             &-buchse{
                 @include center;
                 width: 33rem;
-                background-color: $color-grey;
+                background-color: rgba($color: $color-grey, $alpha: .4);
                 margin: 1rem;
                 height: 20rem;
             }
