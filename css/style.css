@@ -92,11 +92,12 @@
             font-size: .7rem;
             color: inherit;
             letter-spacing: .5px; }
-      .choose-box-list-item-link:hover {
-        color: #EE8433;
-        transition: all .3s; }
     .choose-box-list-item:nth-of-type(odd) {
       background-color: #d0dedf; }
+    .choose-box-list-item:hover {
+      background-color: #EE8433;
+      transition: all .3s;
+      color: #fff; }
 
 .pic-container {
   display: flex;

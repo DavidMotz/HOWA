@@ -134,15 +134,20 @@ $color-grey:#E4E3E3;
             }
 
             &-link:hover{
-                color: $color-highlight-2;
-                transition: all .3s;
+                color: inherit;
             }
-        }
 
+        }
+        
         &-item:nth-of-type(odd){
             background-color: lighten($color-primary-light, $amount: 25);
         }
-
+        
+        &-item:hover{
+            background-color: $color-highlight-2;
+            transition: all .3s;
+            color: $color-white;
+        }
     }
 
 }
